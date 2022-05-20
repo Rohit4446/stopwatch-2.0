@@ -1,0 +1,41 @@
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:blueviolet;
+    
+}
+
+.main {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   gap: 20px;
+   margin: 25px;
+   padding: 30px;
+    
+}
+
+
+span , h1 ,#dot {
+    font-size: 80px;
+}
+
+
+button {
+   font-size: 25px;
+   border-radius: 8px;
+}
+
+#time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
